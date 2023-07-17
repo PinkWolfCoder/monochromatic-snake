@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!11 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - name: Untagged
+    tag: 0
+  - name: Respawn
+    tag: 1
+  - name: Finish
+    tag: 2
+  - name: EditorOnly
+    tag: 3
+  - name: MainCamera
+    tag: 4
+  - name: Player
+    tag: 5
+  layers:
+    - Default
+    - TransparentFX
+    - Ignore Raycast
+    - Water
+    - UI
+  userLayers:
+    - name: User Layer 1
+      layer: 8
+    - name: User Layer 2
+      layer: 9
+    - name: User Layer 3
+      layer: 10
+    - name: User Layer 4
+      layer: 11
+    - name: User Layer 5
+      layer: 12
+    - name: User Layer 6
+      layer: 13
+    - name: User Layer 7
+      layer: 14
+    - name: User Layer 8
+      layer: 15
+  sortingLayers:
+    - name: Default
+      uniqueID: 0
+      locked: 0
+      hidden: 0
+    - name: TransparentFX
+      uniqueID: 1
+      locked: 0
+      hidden: 0
+    - name: Ignore Raycast
+      uniqueID: 2
+      locked: 0
+      hidden: 0
+    - name: Water
+      uniqueID: 3
+      locked: 0
+      hidden: 0
+    - name: UI
+      uniqueID: 4
+      locked: 0
+      hidden: 0

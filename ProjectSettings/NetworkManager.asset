@@ -1,0 +1,31 @@
+{ 
+    "name": "NetworkManager",
+    "class": "NetworkManager",
+    "singleton": true,
+    "autoStartServerBuild": false,
+    "runInBackground": true,
+    "scriptCRCCheck": false,
+    "sendPeerInfo": true,
+    "maxDelay": 0.01,
+    "maxBufferedPackets": 64,
+    "channelList": [
+        {
+            "name": "Reliable",
+            "maxDelay": 0.01,
+            "maxPendingPacketCount": 16,
+            "maxSentMessageQueueSize": 512,
+            "isReliable": true,
+            "useWebSockets": false
+        },
+        {
+            "name": "Unreliable",
+            "maxDelay": 0.01,
+            "maxPendingPacketCount": 16,
+            "maxSentMessageQueueSize": 512,
+            "isReliable": false,
+            "useWebSockets": false
+        }
+    ],
+    "customConfig": "",
+    "enabled": 1
+}

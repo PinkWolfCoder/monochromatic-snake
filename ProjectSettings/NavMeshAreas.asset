@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+NavMeshAreas:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  areas:
+  - name: Walkable
+    cost: 1
+    serializedVersion: 2
+    idx: 0
+    color: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  - name: Not Walkable
+    cost: 1000000
+    serializedVersion: 2
+    idx: 1
+    color: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  - name: Jump
+    cost: 2
+    serializedVersion: 2
+    idx: 2
+    color: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  - name: Swim
+    cost: 3
+    serializedVersion: 2
+    idx: 3
+    color: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  - name: Fly
+    cost: 4
+    serializedVersion: 2
+    idx: 4
+    color: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
