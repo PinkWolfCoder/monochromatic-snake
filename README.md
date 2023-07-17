@@ -3,7 +3,7 @@ The contents of the monochromatic-snake/README.md file are:
 ```
 # Monochromatic Snake
 
-This is a simple implementation of the classic Snake game using Unity3D. The game features a monochromatic color scheme and simple controls. The player must navigate the snake to eat food and grow longer, while avoiding collisions with the walls or the snake's own tail.
+Testing copilot capabilites and sharing it to a friend will delete this project<3
 
 ## How to Play
 
@@ -14,5 +14,5 @@ This is a simple implementation of the classic Snake game using Unity3D. The gam
 
 ## Credits
 
-This game was created by [Your Name Here]. Feel free to use the code as a starting point for your own projects.
+This game was created by ChatGPT and Copilot. 
 ```
